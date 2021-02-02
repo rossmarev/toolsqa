@@ -35,12 +35,12 @@ namespace ToolsQA.TestCases
            
                 
             var currentWindow = _driver.CurrentWindowHandle;
-            IWebElement button = _driver.FindElement(By.Id("windowButton"));
+            IWebElement buttontttt = _driver.FindElement(By.Id("windowButton"));
 
             for (int i = 0; i < 5; i++)
             {
 
-                button.Click();
+                buttontttt.Click();
 
             }
 
